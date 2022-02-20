@@ -1,0 +1,15 @@
+{
+  "title": "Hello",
+  "fields": [
+    { "type": "number", "name": "count" },
+    { "type": "multiline", "name": "comment" },
+    { "type": "textfield", "name": "info" },
+    { "type": "date", "name": "currentDate" },
+    { "type": "radio", "label": "Тип", "name": "type", "values": [{ "name": "good", "label": "Хороший" }, { "name": "bad", "label": "Плохой" }] },
+    { "type": "checkbox", "label": "Характеристики", "name": "characteristics", "values": [{ "name": "isReady", "label": "Готов" }, { "name": "isMoreThanOne", "label": "Больше одного" }] }
+  ],
+  "controls": [
+    { "type": "submit", "label": "Submit" },
+    { "type": "cancel", "label": "Cancel" }
+  ]
+}
